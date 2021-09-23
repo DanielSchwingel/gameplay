@@ -9,6 +9,8 @@ import {
 import { styles } from './style';
 import illustrationImg from '../../assets/illustration.png';
 
+import { ButtonIcon } from '../../components/ButtonIcon';
+
 function SignIn() {
    return (
       <View style={styles.container}>
@@ -32,8 +34,11 @@ function SignIn() {
                Crie grupos para jogar seus games {`\n`}
                favoritos com seus amigos
             </Text>
+            <ButtonIcon 
+               title='Entrar com Discord'
+               activeOpacity={0.7}
+            />
          </View>
-         
       </View>
    )
 }
