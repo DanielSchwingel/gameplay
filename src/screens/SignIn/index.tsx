@@ -3,7 +3,6 @@ import {
    View, 
    Image, 
    Text,
-   StatusBar
 } from 'react-native';
 
 import { styles } from './style';
@@ -14,11 +13,6 @@ import { ButtonIcon } from '../../components/ButtonIcon';
 function SignIn() {
    return (
       <View style={styles.container}>
-         <StatusBar
-            barStyle='light-content'
-            backgroundColor='transparent'
-            translucent
-         />
          <Image 
             source={illustrationImg}
             style={styles.image}
